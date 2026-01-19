@@ -1,0 +1,16 @@
+path: data
+
+train: train/images
+val: val/images
+
+names:
+  0: bicycle
+  1: bicycle_bicycle_collision
+  2: bicycle_vehicle_collision
+  3: bicycle_pedestrian_collision
+  4: car
+  5: car_bicycle_collision
+  6: car_car_collision
+  7: car_pedestrian_collision
+  8: pedestrian
+  9: other

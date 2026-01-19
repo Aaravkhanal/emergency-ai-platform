@@ -1,0 +1,14 @@
+.explain-panel {
+  background: #020617;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.explain-panel h3 {
+  margin-top: 0;
+}
+
+.explain-panel li {
+  margin-bottom: 6px;
+}

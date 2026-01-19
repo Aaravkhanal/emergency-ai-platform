@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# YOLO / ML artifacts
+runs/
+outputs/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

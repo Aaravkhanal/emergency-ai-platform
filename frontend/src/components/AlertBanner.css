@@ -1,0 +1,60 @@
+.alert-banner {
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 2px solid;
+}
+
+.alert-banner.emergency {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+  border-color: #fca5a5;
+  animation: pulse-red 2s ease-in-out infinite;
+}
+
+.alert-banner.warning {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  border-color: #fde047;
+  color: #1f2937;
+}
+
+@keyframes pulse-red {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 24px rgba(220, 38, 38, 0.8);
+  }
+}
+
+.alert-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.alert-icon {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.alert-text {
+  flex: 1;
+}
+
+.alert-meta {
+  font-size: 14px;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+.emergency-status {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 14px;
+  border-left: 4px solid white;
+}

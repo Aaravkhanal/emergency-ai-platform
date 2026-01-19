@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+venv/
+.env
+
+# Node
+node_modules/
+
+# Model weights (optional)
+*.pt
+
+# OS
+.DS_Store
+outputs/
+tmp/

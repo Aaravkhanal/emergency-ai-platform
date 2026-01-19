@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+th {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #3b82f6;
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+td {
+  background: #0f172a;
+  padding: 14px 16px;
+  border-top: 1px solid #334155;
+  color: #e2e8f0;
+}
+
+tr:hover td {
+  background: #1e293b;
+}
