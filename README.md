@@ -56,11 +56,6 @@ Severity Levels:
 
 ---
 
-## 🖼 Screenshots
-(Add your screenshots here)
-
----
-
 ## 🚀 How to Run
 
 ### Backend
